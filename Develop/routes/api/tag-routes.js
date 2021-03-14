@@ -2,8 +2,8 @@ const router = require('express').Router();
 const { Tag, Product, ProductTag } = require('../../models');
 
 // The `/api/tags` endpoint
-Product.belongsToMany(Tag, {through: ProductTag}); 
-Tag.belongsToMany(Product, {through: ProductTag}); 
+// Product.belongsToMany(Tag, {through: ProductTag}); 
+// Tag.belongsToMany(Product, {through: ProductTag}); 
 
 router.get('/', (req, res) => {
   // find all tags
@@ -74,8 +74,8 @@ router.delete('/:id', (req, res) => {
   // delete on tag by its `id` value
   Tag.destroy({
     where: {
-      id: req.params.id
-    }
+      id: req.params.id,
+    },
   }).then(tagData => res.json(tagData))
   .catch(err => {
     console.log(err); 
