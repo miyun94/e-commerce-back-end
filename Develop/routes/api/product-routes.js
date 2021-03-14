@@ -2,7 +2,6 @@ const router = require('express').Router();
 const { Product, Category, Tag, ProductTag } = require('../../models');
 
 // The `/api/products` endpoint
-// Product.belongsTo(Tag); 
 Product.belongsToMany(Tag, {through: ProductTag});
 Tag.belongsToMany(Product, {through: ProductTag}); 
 Product.belongsTo(Category); 
