@@ -17,14 +17,14 @@
 
   ## Usage
   Once everything is installed properly, open the commandline and make sure to run mysql to connect to the schema and seeds. Then back at the root of the terminal or commandline, run the application by using 'npm start'
+  Here is a link to the video of how the application is ran: [Link to video](https://youtu.be/nfqR1kkbzxw)
   
   ### Screenshot
-  The following image is a screenshot of the how the application should once finished:
+  The following image is a gif previewing how the application should once finished:
   <br/>
   <br/>
-  ![screenshot](https://user-images.githubusercontent.com/74436613/111058037-8ccdc100-8440-11eb-99d6-521386a29679.png)
-  ![screenshot](https://user-images.githubusercontent.com/74436613/111058160-5b092a00-8441-11eb-9eaa-7e742216dca2.png)
-  ![screenshot](https://user-images.githubusercontent.com/74436613/111058703-ff40a000-8444-11eb-91ae-288f74db7a04.png)
+![Gif](https://media.giphy.com/media/4RYeiR5qw3xrnhCzf7/giphy.gif)
+
 
   ## Contributors 
   [miyun94](https://github.com/miyun94)
