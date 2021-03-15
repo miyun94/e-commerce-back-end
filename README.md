@@ -20,7 +20,7 @@
   Here is a link to the video of how the application is ran: [Link to video](https://youtu.be/nfqR1kkbzxw)
   
   ### Screenshot
-  The following image is a gif previewing how the application should once finished:
+  The following gif is previewing how the application should look like once finished:
   <br/>
   <br/>
 ![Gif](https://media.giphy.com/media/4RYeiR5qw3xrnhCzf7/giphy.gif)
